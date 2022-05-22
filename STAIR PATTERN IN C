@@ -1,0 +1,22 @@
+PROGRAM TO PRINT A STAIR PATTERN USING LOOPS IN C:
+
+I/P:
+
+#include <stdio.h>
+void main()
+{
+   int i,j,rows;
+   printf("Input number of stairs : ");
+   scanf("%d",&rows);
+   for(i=0;i<=rows;i++)
+   {
+	for(j=1;j<=i;j++)
+	   printf("01 ");
+	   printf("\ ");
+   }
+}
+
+O/P:
+
+Input number of stairs : 6
+01  01 01  01 01 01  01 01 01 01  01 01 01 01 01  01 01 01 01 01 01 
